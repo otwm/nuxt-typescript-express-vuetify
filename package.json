@@ -8,8 +8,9 @@
   },
   "keywords": [
     "nuxt",
+    "typescript",
     "express",
-    "typescript"
+    "vuetify"
   ],
   "author": "kim dong o",
   "license": "MIT",
