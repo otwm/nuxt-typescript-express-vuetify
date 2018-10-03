@@ -5,11 +5,17 @@
   "dependencies": {
     "@nuxtjs/axios": "^5.3.3",
     "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "body-parser": "^1.18.3",
     "express": "^4.16.3",
+    "material-design-icons-iconfont": "^3.0.3",
     "nuxt": "^2.1.0",
     "nuxt-property-decorator": "^1.2.0",
+    "qa": "0.0.1",
+    "ramda": "^0.25.0",
     "source-map-support": "^0.5.9",
     "ts-loader": "^5.2.1",
+    "vuetify": "^1.2.6",
     "vuex-class": "^0.3.1"
   },
   "scripts": {
