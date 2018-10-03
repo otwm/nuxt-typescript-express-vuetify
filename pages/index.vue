@@ -10,7 +10,7 @@
 <script lang="ts">
 import {
   Component,
-  Vue
+  Vue,
 } from "nuxt-property-decorator"
 import { State } from "vuex-class"
 import Card from "~/components/Card.vue"
@@ -21,7 +21,7 @@ import Card from "~/components/Card.vue"
   }
 })
 export default class extends Vue {
-  @State people
+  @State people;
 }
 </script>
 <style scoped>

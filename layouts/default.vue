@@ -37,26 +37,23 @@
   </v-app>
 </template>
 
-<script>
-  export default {
-    data: () => ({
-      drawer: null,
-      menus: [
-        { icon: 'home', title: 'Home', to: '/' },
-        { icon: 'person', title: 'User', to: '/users' },
-        { icon: 'pets', title: 'Reservation', to: '/reservations' },
-        { icon: 'add_alert', title: 'Notice', to: '/notice' },
-      ],
-      miniVariant: false,
-    }),
-    props: {
-      source: String,
-    },
-    methods: {
-      handleClick: () => {
-        console.log('clicked');
-      },
+<script lang="ts">
+  import { Component, Prop, Vue } from 'nuxt-property-decorator'
+  import Menu from "./menu";
 
-    },
-  };
+  @Component
+  export default class defaultLayout extends Vue {
+    drawer = null;
+    menus: Array<Menu> = [
+      { icon: 'home', title: 'Home', to: '/' },
+    ];
+    miniVariant: boolean = false;
+
+    @Prop()
+    string: string;
+
+    handleClick() {
+      console.log('clicked');
+    }
+  }
 </script>
