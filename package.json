@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-typescript-express-vuetify",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "test": "vue init otwm/nuxt-typescript-express-vuetify sample",
+    "test:full": "npm run test && cd sample && npm i && npm run dev"
+  },
+  "keywords": [
+    "nuxt",
+    "express",
+    "typescript"
+  ],
+  "author": "kim dong o",
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/cli": "^3.0.4"
+  }
+}
