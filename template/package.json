@@ -27,6 +27,7 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
   },
   "devDependencies": {
+    "@otwmoo/backpack-core": "^0.8.1",
     "@types/axios": "^0.14.0",
     "@types/node": "^10.11.3",
     "@types/ramda": "^0.25.38",
